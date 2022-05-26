@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Meet account =)",
+  "description": "Add (?authuser=1) to meet link",
+  "version": "1.0",
+  "permissions": [
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "https://meet.google.com/*"
+  ],
+  "icons": {
+    "16": "/img/16.png",
+    "48": "/img/48.png",
+    "128": "/img/128.png"
+  },
+  "page_action": {
+    "default_icon": {
+      "16": "/img/16.png",
+      "48": "/img/48.png",
+      "128": "/img/128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [ "https://meet.google.com/*" ],
+      "js": [ "url.js" ]
+    }
+  ]
+}
