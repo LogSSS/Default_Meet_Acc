@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #121128;
+  text-align: center;
+}
+
+.container {
+  margin: 10px;
+  padding: 15px;
+  width: 310px;
+  height: 150px;
+  color: #fff;
+}
+
+.line {
+  margin: 10px 0;
+  border: none;
+  height: 1.5px;
+  background-image: linear-gradient(90deg, #121128, #ffffff, #121128);
+}
+
+form {
+  margin: 20px;
+}
+
+select {
+  font-size: 20px;
+  height: 200%;
+  width: 25%;
+  margin: auto;
+  display: grid;
+  appearance: none;
+}
