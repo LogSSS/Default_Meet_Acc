@@ -1,6 +1,0 @@
-1) if unloggined acc need to make redirect to login ...
-
-2) get emails
-
-3) make good css for "menu"
-
